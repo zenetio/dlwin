@@ -1,3 +1,4 @@
+
 GPU-accelerated Keras with Tensorflow, Theano, or CNTK on Windows 10 native
 ===================================================
 
@@ -28,7 +29,7 @@ Here's a summary list of the tools and libraries we use for deep learning on Win
 5. Keras 2.0.5 with three different backends: Theano 0.9.0, Tensorflow-gpu 1.2.0, and CNTK 2.0
    - Keras is used for deep learning on top of Theano, Tensorflow, or CNTK
    - Theano, Tensorflow, and CNTK are backends used to evaluate mathematical expressions on multi-dimensional arrays
-
+NOTE: Due to how dll are named in cuDNN v5.1 and cuDNN v6.0, there is no compatibility between them when you decide to use TensorFlow 1.2.x or 1.3.x. You can check this [here](https://github.com/tensorflow/tensorflow/blob/master/RELEASE.md#release-130)
 # Hardware
 
 1. Dell Precision T7900, 64GB RAM
